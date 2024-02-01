@@ -1,11 +1,11 @@
-# Emotion-Detection-Udong-Deep-Learning/Comuter-Vision
+# Emotion-Detection-Using-Deep-Learning/Computer-Vision
 The project aims to develop a deep learning model using CNNs to accurately classify facial expressions into seven categories: Angry, Disgust, Fear, Happy, Sad, Surprise, and Neutral.
 The FER-2013 dataset will be used for training.
 
 Realised by: Bouchnak Med Amine, Besrour Ines and Kaabachi Imen.
 
 ## Data Preprocessing
-We will be batching our dataset as it is very large and it would be inefficent to dump it all at once into memory. We will also be applying data augmentation to the dataset to further diversify the input data, we will use techniques such as... rotation, shifting, and flipping. This can improve the performance of our model.
+We will be batching our dataset as it is very large and it would be inefficient to dump it all at once into memory. We will also be applying data augmentation to the dataset to further diversify the input data, we will use techniques such as... rotation, shifting, and flipping. This can improve the performance of our model.
 Loading and preprocessing the dataset: The dataset consists of 48x48 pixel grayscale images of faces.
 
 ## Performing data augmentation
